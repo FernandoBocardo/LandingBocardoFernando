@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Página personal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Bienvenidos a mi página personal</h1>
+            Mi nombre es Fernando Bocardo Montes y en esta página se encuentran algunas cosas sobre mi.
+        </div>
+        <div>
+            <h2>Hobbies</h2>
+            <ol>
+                <li>Ver anime</li>
+                <li>Jugar videojuegos</li>
+                <li>Leer novelas</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Series o Películas favoritas</h2>
+            <ol>
+                <li>The Walking Dead</li>
+                <li>Shrek</li>
+                <li>Apocalipsis Minecraft</li>
+                <li>Danmachi</li>
+                <li>Toaru</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Contacto</h2>
+            <form action ="mailto: fernando.bocardo228476@potros.itson.edu.mx?subject=Contactar a Fernando Bocardo Montes" method=post enctype="text/plain">
+                <label>Nombre: </label>
+                <input type="text" id="txtNombre" name="nombre" required/>
+                <br>
+                <br><label>Direccion: </label>
+                <input type="email" id="txtDireccion" name="direccion"/>
+                <br><br><label>Mensaje: </label>
+                <input type="text" id="txtMensaje" name="mensaje" required/>
+                <br>
+                <input type="reset" value="Nuevo" />
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
+    </body>
+</html>
