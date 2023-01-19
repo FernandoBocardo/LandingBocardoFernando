@@ -1,0 +1,19 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 18 ene 2023, 23:10:34
+    Author     : Fernando
+*/
+body
+{
+    background-color: gray;
+    background-image: url('../img/danmachi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{color: red; font-size: 20pt}
+h2{color: blue; font-size: 15pt}
+hr{color: navy;}
+p{font-size: 11pt; margin-left: 15px;}
